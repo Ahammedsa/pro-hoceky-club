@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
      <script src="https://cdn.tailwindcss.com"></script>
+
+     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
     <title>Document</title>
     <style>
       .custom-text {
@@ -26,6 +29,40 @@
 <body>
 <header>
         <!-- 1 Nabvar section Starts -->
+        <nav class="h-scrren flex justify-between items-center w-9/12 mx-auto">
+          <div class="flex items-center gap-6">
+            <ion-icon name="menu-outline" class="cursor-pointer text-3xl md:hidden"></ion-icon>
+            <h1 class="text-xl font-bold w-16">Hockey<span class="text-red-500">’</span>s</h1>
+            <!-- <img class="w-16" src="https://cdn-icons-png.flaticon.com/512/5968/5968204.png" alt=""> -->
+          </div>
+          <div class="md:static  absolute md:min-h-fit min-h-[60vh] left-0 top-[-100%] w-auto flex items-center px-5 ">
+            <ul class="flex flex-col md:flex-row md:items-center  md:gap-[4vw] gap-8 text-md p-4">
+                <li>
+                    <a  href=""><span class="text-red-500">Home</span></a>
+                </li>
+                <li>
+                    <a href="">About</a>
+                </li>
+                <li>
+                    <a href="">Pages</a>
+                </li>
+                <li>
+                    <a href="">Blog</a>
+                </li>
+                <li>
+                    <a href="">Contact</a>
+                </li>
+            </ul>
+        </div>
+            <!-- <div class="nabvar-end"> -->
+              <button class="btn btn-ghost btn-circle">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" /></svg>
+              </button>
+              <button class="btn bg-red-500 p-5 text-white text-center">
+                Get Ticket
+              </button>
+         <!-- </div> -->
+       </nav>
     <!-- Nabvar section Ends -->
     <!-- 2 Bannner ection with Slide Stars -->
     <section>
@@ -63,7 +100,8 @@
         <div class="container w-full lg:w-3/12 h-[20vh] lg:h-[15vh] bg-black  rounded 
                   absolute  text-white p-4 rounded-lg top-60  lg:bottom-96 lg:right-64">
               <h1>Meet all the heroes from the fiel</h1>
-              <p>Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin.</p>
+              <p>
+                Dynamic players, passionate fans, intense matches, skilled athletes, rink excitement, thrilling goals, strategic plays, coach leadership</p>
     </div>
    </div>
     </section>
@@ -78,28 +116,28 @@
         <section class="pt-24 lg:pt-2">
             <div class="container w-full lg:w-9/12 mx-auto border  border-3xl">
               <h1 class="text-center text-xl lg:text-3xl font-bold">Professional Hockeys Club</h1>
-                  <p class="text-center w-96 mx-auto">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat <br>  dolor. Purus urna in sit nullam proin. </p>
+                  <p class="text-center w-96 mx-auto">The professional hockey club, with skilled players and passionate fans, competes <br> in intense matches for victory and championships.</p>
                  <div class="flex  flex-col lg:flex-row  space-between items-center justify-center gap-4 p-4 ">
                     
                       <div class="flex flex-col items-center justify-center ">
                           <div class="radial-progress text-red-500" style="--value:87;" role="progressbar">87%</div>
-                          <h1 class="text-center text-xl lg:text-3xl font-bold">Prayer Facility</h1>
-                          <p class="text-center  mx-auto">Amet consectetur. Condimentum dignissim adipiscing .</p>
+                          <h1 class="text-center text-xl lg:text-3xl font-bold">Player Facility</h1>
+                          <p class="text-center  mx-auto">Here Has Best Player Facilty and Best oppurtunnity .</p>
                      </div>
                     <div class="flex flex-col items-center justify-center">
                       <div class="radial-progress text-green-500" style="--value:95;" role="progressbar">95%</div>
                       <h1 class="text-center text-xl lg:text-3xl font-bold">Experienced Coach</h1>
-                      <p class="text-center  mx-auto">Amet consectetur. Condimentum dignissim adipiscing .</p>
+                      <p class="text-center  mx-auto">We have Best and Top Most Experienced of the World</p>
                      </div>
                      <div class="flex flex-col items-center justify-center">
                       <div class="radial-progress text-yellow-500" style="--value:95;" role="progressbar">95%</div>
                       <h1 class="text-center text-xl lg:text-3xl font-bold">Senior Player</h1>
-                      <p class="text-center  mx-auto">Amet consectetur. Condimentum dignissim adipiscing .</p>
+                      <p class="text-center  mx-auto">In Our Club Here has Exprienced Senoir Player .</p>
                      </div>
                      <div class="flex flex-col items-center justify-center">
                       <div class="radial-progress text-blue-500" style="--value:80;" role="progressbar">87%</div>
                       <h1 class="text-center text-xl lg:text-3xl font-bold">Training Ground</h1>
-                      <p class="text-center  mx-auto">Amet consectetur. Condimentum dignissim adipiscing .</p>
+                      <p class="text-center  mx-auto">Traninng Ground is Main elements of a club We have it.</p>
                      </div>
                  </div>
             </div>
@@ -111,7 +149,8 @@
         <div class="container w-full lg:w-9/12 border border-3xl mt-5 bg-gray-200 mx-auto">
           <div class="mx-auto text-center space-y-4 mt-5 ">
             <h1 class="text-xl lg:text-3xl font-bold ">  Program Sections</h1>
-            <p class="w-96 mx-auto">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin.</p>
+            <p class="w-96 mx-auto">
+              In the club's program section: events, workshops, skill development, community outreach, team building, leadership seminars, member engagement, .</p>
             <!--  -->
            
           </div>
@@ -122,7 +161,7 @@
                 <img src="./Images/2.png" alt="" class="h-80 w-full">
                 <div class="absolute left-10 bottom-10 text-white space-y-4 ">
                   <h1 class="text-xl lg:text-3xl font-bold ">  Program Sections</h1>
-                  <p class="w-80 mx-auto">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin.</p>
+                  <p class="w-80 mx-auto">The program section in our club serves as a vibrant hub for diverse activities and initiatives. From skill-building.</p>
                   <button class="btn bg-red-500 border border-0">Register Now!</button>
                 </div>
             </div>
@@ -130,7 +169,7 @@
               <img src="./Images/3.png" alt="" class="h-80 w-full">
               <div class="absolute left-10 bottom-10 text-white space-y-4">
                 <h1 class="text-xl lg:text-3xl font-bold ">  Program Sections</h1>
-                <p class="w-80 mx-auto">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin.</p>
+                <p class="w-80 mx-auto">utreach events to engaging team-building sessions and leadership seminars, this dynamic space caters to the multifaceted .</p>
                 <button class="btn bg-red-500 border border-0">Register Now!</button>
               </div>
             </div>
@@ -139,7 +178,7 @@
               <img src="./Images/4.png" alt="" class="h-80 w-full">
               <div class="absolute left-10 bottom-10 text-white space-y-4">
                 <h1 class="text-xl lg:text-3xl font-bold ">  Program Sections</h1>
-                <p class="w-80 mx-auto">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin.</p>
+                <p class="w-80 mx-auto">We strive to create a comprehensive platform that fosters personal and professional growth, ensuring that our club remains .</p>
                 <button class="btn bg-red-500 border border-0">Register Now!</button>
               </div>
              </div>
@@ -328,8 +367,61 @@
         </section>
         <!-- Our New Products Ends -->
         <!-- Clients Question Starts -->
-        <section>
+        <section class="w-9/12 mx-auto mt-10">
+            <div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
+                <div class="mt-3">
+                   <img src="./Images/11.png" alt="">
+                </div>
 
+                <div class="col-span-1 lg:col-span-2">
+                  <div class="collapse collapse-plus bg-base-200 mt-5">
+                    <input type="radio" name="my-accordion-3" checked="checked" /> 
+                    <div class="collapse-title text-xl font-medium">
+                      Our Equipment
+                    </div>
+                    <div class="collapse-content"> 
+                      <p>hello</p>
+                    </div>
+                  </div>
+                  <div class="collapse collapse-plus bg-base-200 mt-5">
+                    <input type="radio" name="my-accordion-3" /> 
+                    <div class="collapse-title text-xl font-medium">
+                      Hockey Training
+                    </div>
+                    <div class="collapse-content"> 
+                      <p>hello</p>
+                    </div>
+                  </div>
+                  <div class="collapse collapse-plus bg-base-200 mt-5">
+                    <input type="radio" name="my-accordion-3" /> 
+                    <div class="collapse-title text-xl font-medium">
+                      Private Lessons
+                    </div>
+                    <div class="collapse-content"> 
+                      <p>hello</p>
+                    </div>
+                  </div>
+                  <div class="collapse collapse-plus bg-base-200 mt-5">
+                    <input type="radio" name="my-accordion-3" /> 
+                    <div class="collapse-title text-xl font-medium">
+                      Booking
+                    </div>
+                    <div class="collapse-content"> 
+                      <p>hello</p>
+                    </div>
+                  </div>
+                  <div class="collapse collapse-plus bg-base-200 mt-5">
+                    <input type="radio" name="my-accordion-3" /> 
+                    <div class="collapse-title text-xl font-medium">
+                      Pricings
+                    </div>
+                    <div class="collapse-content"> 
+                      <p>hello</p>
+                    </div>
+                  </div>
+
+                </div>
+            </div>
         </section>
         <!-- Clients Question Ends -->
 
@@ -390,7 +482,7 @@
                 </div>
                 
              </div>
-         
+
           </section>
          <!-- Get In Touch Ends -->
     </main>
